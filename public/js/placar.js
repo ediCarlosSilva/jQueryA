@@ -8,7 +8,7 @@ function inserePlacar() {
     // var placar = $(".placar");
     // var corpoTabela = placar.find("tbody");
     var corpoTabela = $('.placar').find("tbody");
-    var usuario = "Edi Carlos";
+    var usuario = $("#usuarios").val();
     var numPalavras = $("#contador-palavras").text();
     // var botaoRemover = "<a href='#' class='botao-remover'><i class='small material-icons'>delete</i></a>";
 
